@@ -27,5 +27,7 @@ public class LockReceiver extends DeviceAdminReceiver {
     public void onDisabled(@NonNull Context context, @NonNull Intent intent) {
         super.onDisabled(context, intent);
         Log.e(TAG, "onDisabled: 取消激活");
+
+        System.out.println("测试提交是否成功");
     }
 }
